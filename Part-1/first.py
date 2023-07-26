@@ -1,1 +1,2 @@
-print('hello world' * 20)
+print('hello world')
+print('hi....')
