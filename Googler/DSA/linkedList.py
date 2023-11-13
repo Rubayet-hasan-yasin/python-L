@@ -67,26 +67,26 @@ class DoubleLinkedList:
         return F"[{', '.join(str(val) for val in vals)}]"
 
 
-my_list = DoubleLinkedList()
+# my_list = DoubleLinkedList()
 
-my_list.add(1)
-my_list.add(2)
-my_list.add(5)
-my_list.add(5)
-my_list.add(5)
-my_list.add(3)
-my_list.add(5)
-my_list.add(5)
-my_list.add(7)
-my_list.remove(5)
+# my_list.add(1)
+# my_list.add(2)
+# my_list.add(5)
+# my_list.add(5)
+# my_list.add(5)
+# my_list.add(3)
+# my_list.add(5)
+# my_list.add(5)
+# my_list.add(7)
+# my_list.remove(5)
 
 
 
-print(my_list)
-my_list.remove_last()
-my_list.remove_first()
+# print(my_list)
+# my_list.remove_last()
+# my_list.remove_first()
 
-print(my_list)
+# print(my_list)
 
 
 
