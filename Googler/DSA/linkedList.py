@@ -52,6 +52,12 @@ class DoubleLinkedList:
                 self.__remove_node(node)
             node = node.next
 
+    def front(self):
+        return self.head.val
+    
+    def back(self):
+        return self.tail.val
+
     def __str__(self):
         vals = []
         node = self.head
